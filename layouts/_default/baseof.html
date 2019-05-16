@@ -1,0 +1,45 @@
+<html>
+
+
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title> {{.Site.Title}} </title>
+  <meta name="author" content="{{.Site.Author}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	{{/* <link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/> */}}
+	<link rel="stylesheet" href="{{"tailwind.css" | relURL}}">
+	<link rel="stylesheet" href="{{"styles.css" | relURL}}">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Roboto|Roboto+Mono:300" rel="stylesheet">
+
+	<link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png">
+</head>
+
+
+
+<body>
+	{{ block "header" . }}
+	<header class="h-10 p-2 flex items-center shadow">
+		<a href="{{.Site.BaseURL}}">
+			<img class="h-8 inline-block mb-1" src="{{"images/logo.png" | relURL}}" alt="logo">
+			<h1 class="inline-block font-sans text-gray-900">Pawel Sysiak</h1></a>
+			<span class="ml-auto text-gray-200">
+					<span>
+						<a href="#"><span class="font-sans text-gray-500 mr-2">Sections</span></a></span>
+						<a href="#"><span class="font-sans text-gray-500">About</span></a></span>
+					</span>
+	</header>
+	{{end}}
+		<div class="p-2 max-w-lg m-auto">
+		  {{ block "main" . }}
+
+			{{end}}
+		</div>
+	<hr>
+  {{ block "footer" . }}
+  This is the dafualt baseof Footer
+  {{end}}
+</body>
+</html>

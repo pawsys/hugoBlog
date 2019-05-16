@@ -1,0 +1,17 @@
+<div class="w-full flex pb-2">
+  <a href="#"><img class="inline-block" src="{{"images/icon-placeholder.svg" | relURL}}" alt="icon-placeholder">
+  <span class="text-gray-500 sans-font">{{.File.Dir}}</span></a>
+</div>
+
+
+
+
+<div class="border-l border-purple-500 pl-8">
+<a href="{{.Permalink}}">
+    <p class="mono-font text-gray-900 leading-relaxed">{{.Title}}</p>
+    <cite class="mono-font uppercase text-sm text-gray-900 mt-2 inline-block not-italic tracking-wide">– {{.Params.Authors}}</cite>
+  </a>
+</div>
+<a href="{{.Permalink}}">
+<p class="mt-4 text-gray-900">{{.Summary}}</p>
+</a>
