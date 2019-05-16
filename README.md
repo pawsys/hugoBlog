@@ -1,1 +1,3 @@
 # hugoBlog
+
+new hugo repo
