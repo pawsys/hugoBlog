@@ -52,6 +52,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 <br>
 
 Inline-style image:
+
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 Inline `code` has `back-ticks around` it.
