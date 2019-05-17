@@ -44,16 +44,16 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 <br>
 <br>
+
 [I'm an inline-style link](https://www.google.com)
+
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
 <br>
-<br>
+
 Inline-style image:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-
-<br>
-<br>
 Inline `code` has `back-ticks around` it.
 
 ```block of code```
@@ -66,6 +66,7 @@ Inline `code` has `back-ticks around` it.
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+<br>
 
 Markdown | Less | Pretty
 --- | --- | ---
