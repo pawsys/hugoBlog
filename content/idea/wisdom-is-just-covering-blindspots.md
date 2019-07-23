@@ -3,7 +3,7 @@ title: "Wisdom Is Just Covering Blindspots"
 img:
 date: 2019-05-02T12:20:36-07:00
 draft: false
-priority: 1
+priority: 2
 
 authors: Charlie Munger
 types: idea

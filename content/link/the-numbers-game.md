@@ -6,7 +6,7 @@ subtitle: Why Everything You Know About Soccer Is Wrong
 img:
 date: 2019-05-02T11:20:02-07:00
 
-priority: 1
+priority: 3
 types: link
 tag: "link"
 

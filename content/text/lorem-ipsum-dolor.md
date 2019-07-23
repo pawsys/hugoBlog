@@ -5,7 +5,7 @@ subtitle: "Ea vix facilisis rationibus incorrupte, delenit ratio nibus mnesarchu
 img:
 date: 2019-05-02T11:40:12-07:00
 draft: true
-priority: 1
+priority: 3
 
 type: text
 ---

@@ -1,15 +1,18 @@
 
-{{define "main" }}
+{{/*  {{define "main" }}
   {{range .Pages}}
     <div class="mt-4">
       {{if in .Params.types "link"}}
         {{partial "listLink" .}}
+      {{else if in .Params.types "idea"}}
+        {{partial "listIdea" .}}
+
       {{else}}
         {{partial "listDefault" .}}
       {{end}}
-      {{end}}
+
     </div>
   {{ template "_internal/pagination.html" . }}
     {{ range .Paginator.Pages }}
   {{ end }}
-{{end}}
+{{end}}  */}}

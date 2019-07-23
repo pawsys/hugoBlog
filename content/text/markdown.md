@@ -4,7 +4,7 @@ subtitle:
 img:
 date: 2019-05-01T17:14:49-07:00
 draft: false
-priority: 1
+priority: 2
 
 type: #deprecate
 ---
