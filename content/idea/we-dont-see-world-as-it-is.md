@@ -1,5 +1,5 @@
 ---
-title: "Wisdom is just covering blindspots in your mentalmodel map of knowledge"
+title: "Wisdom is is just covering blindspots in your mentalmodel map of knowledge"
 date: 2019-05-02T12:35:24-07:00
 draft: false
 

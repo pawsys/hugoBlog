@@ -9,4 +9,4 @@ authors: Charlie Munger
 types: idea
 ---
 
-Wisdom is just covering blindspots in your mentalmodel map of knowledge
+Wisdom is is just covering blindspots in your mentalmodel map of knowledge
