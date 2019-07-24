@@ -15,10 +15,15 @@ type: #deprecate
 * something else
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 Alt-H2
@@ -59,15 +64,11 @@ Inline `code` has `back-ticks around` it.
 
 ```block of code```
 
-<br>
-<br>
-
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
-<br>
 
 Markdown | Less | Pretty
 --- | --- | ---
