@@ -1,31 +1,8 @@
-@tailwind base;
 
 
 html {
 	font-family: 'Noto Serif', serif;
 }
-
-:root {
-	--primary-color: #6220E6;
-  }
-
-
-h1 {
-  @apply text-2xl;
-}
-h2 {
-  @apply text-xl;
-}
-h3 {
-  @apply text-lg;
-}
-
-@tailwind components;
-
-@tailwind utilities;
-
-
-
 
 .sans-font {
 	font-family: 'Roboto', sans-serif;
@@ -36,7 +13,9 @@ h3 {
 	font-weight: 300;
 }
 
-
+:root {
+  --primary-color: #6220E6;
+}
 
 a {
 	text-decoration: none;
@@ -94,6 +73,3 @@ h5 {font-size: 0.83rem;}
 h6 {font-size: 0.67rem;}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;} */
-
-
-
